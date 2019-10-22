@@ -22,10 +22,10 @@ void bubbleSort(int A[],int n)
 int main()
 {
 	int n;
-	cout<<"Enter the size of the array\n";
+	cout<<"Enter the size of the array: ";
 	cin>>n;
 	int a[n];
-	cout<<"Enter the element\n";
+	cout<<"Enter the element: ";
 	for(int i=0;i<n;i++)
 	{
 		cin>>a[i];
